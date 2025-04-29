@@ -36,28 +36,28 @@
 #endregion
 #region Task4
 
-//while (true)
-//{
-//    double n = Convert.ToInt32(Console.ReadLine());
-//    if (n > 0)
-//    {
-//        while (n > 2)
-//        {
-//            n /= 2;
-//        }
-//        if (n == 2)
-//        {
-//            Console.WriteLine("n 2-nin quvvetidir");
-//            break;
-//        }
-//        else
-//        {
-//            Console.WriteLine("n 2-nin quvveti deyil");
-//            break;
-//        }
-//    }
-//    else Console.WriteLine("Musbet tam eded daxil edin");
-//}
+while (true)
+{
+    double n = Convert.ToInt32(Console.ReadLine());
+    if (n > 0)
+    {
+        while (n > 1)
+        {
+            n /= 2;
+        }
+        if (n == 1)
+        {
+            Console.WriteLine("n 2-nin quvvetidir");
+            break;
+        }
+        else
+        {
+            Console.WriteLine("n 2-nin quvveti deyil");
+            break;
+        }
+    }
+    else Console.WriteLine("Musbet tam eded daxil edin");
+}
 
 #endregion
 #region Task5
