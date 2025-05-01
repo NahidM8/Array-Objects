@@ -36,28 +36,28 @@
 #endregion
 #region Task4
 
-while (true)
-{
-    double n = Convert.ToInt32(Console.ReadLine());
-    if (n > 0)
-    {
-        while (n > 1)
-        {
-            n /= 2;
-        }
-        if (n == 1)
-        {
-            Console.WriteLine("n 2-nin quvvetidir");
-            break;
-        }
-        else
-        {
-            Console.WriteLine("n 2-nin quvveti deyil");
-            break;
-        }
-    }
-    else Console.WriteLine("Musbet tam eded daxil edin");
-}
+//while (true)
+//{
+//    double n = Convert.ToInt32(Console.ReadLine());
+//    if (n > 0)
+//    {
+//        while (n > 1)
+//        {
+//            n /= 2;
+//        }
+//        if (n == 1)
+//        {
+//            Console.WriteLine("n 2-nin quvvetidir");
+//            break;
+//        }
+//        else
+//        {
+//            Console.WriteLine("n 2-nin quvveti deyil");
+//            break;
+//        }
+//    }
+//    else Console.WriteLine("Musbet tam eded daxil edin");
+//}
 
 #endregion
 #region Task5
@@ -83,30 +83,15 @@ while (true)
 #endregion
 #region Task6
 
-//int[] numbers = { 12, 22, 25, 34, 40, 55, 68, 98, 100,101};
-
+//int[] numbers = { 12, 22, 25, 34, 40, 55, 68, 98, 100, 101 };
 //int target = 55;
-
-//int first = 0;
-//int last = numbers.Length - 1;
 //int index = -1;
 
-//while (first <= last)
+//for (int i = 0; i < numbers.Length; i++)
 //{
-//    int mid = first + (last - first) / 2;
-
-//    if (numbers[mid] == target)
+//    if (numbers[i] == target)
 //    {
-//        index = mid;
-//        break;
-//    }
-//    else if (numbers[mid] < target)
-//    {
-//        first = mid + 1;
-//    }
-//    else
-//    {
-//        last = mid - 1;
+//        index = i; break;
 //    }
 //}
 //Console.WriteLine(index);
